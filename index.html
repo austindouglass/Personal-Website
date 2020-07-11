@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Austin Douglass Website</title>
+    <meta name="description" content="Austin's Personal Website">
+    <meta name="author" content="Austin Douglass">
+
+    <link rel="stylesheet" href="./index.css" />
+
+</head>
+
+<style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#banner-text">About Me</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class='banner-text' id="banner-text">
+        <!-- <style>
+            body {
+              background-image: url('images/linkedin-profile.jpg');
+              background-repeat: no-repeat;
+              background-position-x: 50px;
+              background-position-y: 70px;
+            }
+        </style> -->
+            <img src='images/linkedin-profile.jpg' class="profilepic">
+            <!-- <div class='console-container'>
+                <span id='text'></span>
+                <div class='console-underscore' id='console'>|</div>
+            </div>
+            <script src="terminal.js"></script>
+            </div> -->
+        </section>
+
+        <section class='about-me' id="about-me">
+            <div class="paragraph">
+                <style>
+                    body {
+                      background-image: url('images/uci-wide-sign-3.jpg');
+                      background-repeat: no-repeat;
+                      /* background-blend-mode: soft-light; */
+                      background-position-y: -20vh;
+                      /* background-size: 1500px 500px; */
+                      background-size: cover;
+                      max-width: 100%;
+                      height: auto;
+                      max-height: 950px;
+                      min-height: 400px;
+                    }
+                </style>
+                <div class="about-paragraph">
+                    <h1>About Me</h1>
+                    <p>
+                        My name is Austin Douglass and I'm a recent graduate from the University of California, Irvine. I have a Bachelors Degree in Computer Science and am
+                        currently looking for work in Software/Web Development. I have been passionate about computers, video games, and anything tech related ever 
+                        since I was young. Below this you will find some projects I have worked on as well as ways to contact me. Thank you for taking the time to 
+                        look through my website!
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class='projects' id="projects" style="overflow:auto">
+            <div class="paragraph">
+                <h1>Projects</h1>
+                <ul class='menus' id="menus">
+                    <a href="#tab1"><button class='button'>Python Game</button></a>
+                    <a href="#tab2"><button class='button'>Javascript Model</button></a>
+                    <a href="#tab3"><button class='button'>Poker Breadboard</button></a>
+                </ul>
+                <div id="tab1" class="tab-content">
+                    <p>
+                        The summer after I learned Python and PyGame I made a 2D block based shooting game. Some complex coding problems I dealt with in this 
+                        project include: text file based level creation, 2D array visualized as the gameboard, enemy classes with a variety of abilities, and 
+                        music/sound integration.
+                        <br></br>
+                    </p>
+                    <img src="images/pygame-video.gif" alt="pygame-gif" width="800" height="450" class="border">
+                    <img src="images/pygame-red-block.png" alt="pygame-png" width="800" height="450" class="border">
+                </div>
+                <div id="tab2" class="tab-content">
+                    <p>
+                        For my final project in my Computer Graphics course, I made a model of a car driving on a circle road with day/night
+                        cycle lighting. This was made with mainly javascript and some html.
+                        <br></br>
+                    </p>
+                    <img src="images/js-car-animation.gif" alt="js-gif"  class="border">
+
+                </div>
+                <div id="tab3" class="tab-content">
+                    <p>
+                        I took an embedded systems course where I learned to program on a breadboard with an ATmega32 chip. For my final project I created a
+                        variation of poker where you can bet, redraw cards in your hand, and compete with a computer player that also redraws their cards.
+                        The goal of the game is to have the highest amount of money within 3 rounds. You win by having the biggest matches with the highest
+                        numbers.
+                        <br></br>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class='contact' id="contact">
+            <div class="paragraph">                
+                <h1>Contact:</h1>
+                <p>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=austindouglass22@gmail.com&su=SUBJECT&tf=1"> My Email: austindouglass22@gmail.com</a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/austin-douglass-6a20511b1/">My LinkedIn</a>
+                </p>
+                <p>                    
+                    <a href="https://www.linkedin.com/in/austin-douglass-6a20511b1/">My Resume</a>
+                </p>
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+</html>
