@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="./index.css" />
 
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
 </head>
 
 <style>
@@ -34,21 +36,8 @@
     
     <main>
         <section class='banner-text' id="banner-text">
-        <!-- <style>
-            body {
-              background-image: url('images/linkedin-profile.jpg');
-              background-repeat: no-repeat;
-              background-position-x: 50px;
-              background-position-y: 70px;
-            }
-        </style> -->
+        </style>
             <img src='images/linkedin-profile.jpg' class="profilepic">
-            <!-- <div class='console-container'>
-                <span id='text'></span>
-                <div class='console-underscore' id='console'>|</div>
-            </div>
-            <script src="terminal.js"></script>
-            </div> -->
         </section>
 
         <section class='about-me' id="about-me">
@@ -84,11 +73,30 @@
             <div class="paragraph">
                 <h1>Projects</h1>
                 <ul class='menus' id="menus">
-                    <a href="#tab1"><button class='button'>Python Game</button></a>
-                    <a href="#tab2"><button class='button'>Javascript Model</button></a>
-                    <a href="#tab3"><button class='button'>Poker Breadboard</button></a>
+                    <a href="#tab1"><button class='button'>Poker Website</button></a>
+                    <a href="#tab2"><button class='button'>Python Game</button></a>
+                    <a href="#tab3"><button class='button'>Javascript Model</button></a>
                 </ul>
                 <div id="tab1" class="tab-content">
+                    <ul class='menus' id="menus">
+                        <a href="https://github.com/austindouglass/Picture-Poker-Site"><button class='button'>View the code on GitHub</button></a>
+                        <a href="https://playpicturepoker.com"><button class='button'>Visit the Website Here</button></a>
+                    </ul>
+                    <p> I created 
+                        <a class="link" href="https://playpicturepoker.com">playpicturepoker.com</a>
+                        a simplified poker game where the player goes against the dealer for high stakes betting!
+                        The site was created using HTML, CSS, and Javascript. The game involves having an array for the
+                        player and dealers hands, the ability to redraw cards for the player and dealer, a matching
+                        and priority determiner for figuring out the winner, and a bet/money system. It's a simple but
+                        addictive game that I am still adding on to.
+                        
+                        <br></br>
+                    </p>
+                    <img src="images/poker-desktop.png" alt="poker-desktop" width="800" height="450" class="border">
+                    <br></br>
+                    <img src="images/poker-mobile.png" alt="poker-mobile" width="450" height="800" class="border">
+                </div>
+                <div id="tab2" class="tab-content">
                     <p>
                         The summer after I learned Python and PyGame I made a 2D block based shooting game. Some complex coding problems I dealt with in this 
                         project include: text file based level creation, 2D array visualized as the gameboard, enemy classes with a variety of abilities, and 
@@ -98,26 +106,13 @@
                     <img src="images/pygame-video.gif" alt="pygame-gif" width="800" height="450" class="border">
                     <img src="images/pygame-red-block.png" alt="pygame-png" width="800" height="450" class="border">
                 </div>
-                <div id="tab2" class="tab-content">
+                <div id="tab3" class="tab-content">
                     <p>
                         For my final project in my Computer Graphics course, I made a model of a car driving on a circle road with day/night
                         cycle lighting. This was made with mainly javascript and some html.
                         <br></br>
                     </p>
                     <img src="images/js-car-animation.gif" alt="js-gif"  class="border">
-
-                </div>
-                <div id="tab3" class="tab-content">
-                    <p>
-                        I took an embedded systems course where I learned to program on a breadboard with an ATmega32 chip in C. For my final project I created a
-                        variation of poker where you can bet, redraw cards in your hand, and compete with a computer player that also redraws their cards.
-                        The goal of the game is to have the highest amount of money within 3 rounds. You win by having the biggest matches with the highest
-                        numbers.
-                        <br></br>
-                    </p>
-                    <iframe class="videoPlayer" width="640" height="360" src="https://www.youtube.com/embed/eCrnqjzru00" 
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
                 </div>
             </div>
 
@@ -127,13 +122,16 @@
             <div class="paragraph">                
                 <h1>Contact:</h1>
                 <p>
-                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=austindouglass22@gmail.com&su=SUBJECT&tf=1"> My Email: austindouglass22@gmail.com</a>
+                    <a class="link" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=austindouglass22@gmail.com&su=SUBJECT&tf=1"> Email: austindouglass22@gmail.com</a>
                 </p>
                 <p>
-                    <a href="https://www.linkedin.com/in/austin-douglass-6a20511b1/">My LinkedIn</a>
+                    <a class="link" href="https://www.linkedin.com/in/austin-douglass-6a20511b1/">LinkedIn</a>
                 </p>
                 <p>                    
-                    <a href="https://app.joinhandshake.com/users/6422511">My Handshake</a>
+                    <a class="link" href="https://github.com/austindouglass">GitHub</a>
+                </p>
+                <p>                    
+                    <a class="link" href="https://app.joinhandshake.com/users/6422511">Handshake</a>
                 </p>
             </div>
 

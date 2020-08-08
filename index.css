@@ -85,7 +85,7 @@ nav {
     display: flex;
 	margin: auto;
 	/*background-color: lightgray;*/
-	min-height: 25vh;
+	min-height: 40vh;
     background-color: #1A1A1D;
 }
 
@@ -131,14 +131,18 @@ nav {
 	cursor: pointer;
 	background-color: #4056A1;
 	border-radius: 8px;
-  }
+}
   
-  .button:hover {
-	  color: rgb(200, 200, 200);
-  }
+.button:hover {
+	color: rgb(200, 200, 200);
+}
+
+.link:hover {
+	color: rgb(200, 200, 200);
+}
 
   
-  .console-container { 
+.console-container { 
 	text-align:center;
 	font-size:4em;
 	/*
@@ -154,36 +158,36 @@ nav {
 	*/
 	margin:auto;
 	margin-left: 10vh;
-  }
-  
-  .console-underscore {
+}
+
+.console-underscore {
 	display:inline-block;
 	position:relative;
 	top:-0.14em;
 	left:10px;
-  }
+}
 
-  .border	{
-	  border-radius: 5px;
-	  border-width: 8px;
-	  border-color: #1A1A1D;
-	  border-style: solid;
-	  size: 100% auto;
-  }
+.border	{
+	border-radius: 5px;
+	border-width: 8px;
+	border-color: #1A1A1D;
+	border-style: solid;
+	size: 100% auto;
+}
 
-  .profilepic{
-	  border-radius: 3px;
-	  border-width: 4px;
-	  border-color: #1A1A1D;
-	  border-style: solid;
-	  z-index: -1;
-  }
+.profilepic{
+	border-radius: 3px;
+	border-width: 4px;
+	border-color: #1A1A1D;
+	border-style: solid;
+	z-index: -1;
+}
 
-  .videoPlayer	{
+.videoPlayer	{
 	max-width: 100%;
 	max-height: 100%;
 	min-width: 320px;
 	min-height: 180px;
-    overflow: auto;
-  }
+	overflow: auto;
+}
   
